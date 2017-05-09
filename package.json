@@ -1,0 +1,42 @@
+{
+  "name": "hyper-mac-pro",
+  "version": "1.0.0",
+  "description": "Tab style for Hyper inspired by Apple's pro apps on macOS",
+  "license": "MIT",
+  "author": "Matthias Kretschmann <m@kretschmann.io>",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && stylelint *.css",
+    "precommit": "npm run test"
+  },
+  "files": [
+    "index.js",
+    "styles.css"
+  ],
+  "repository": "kremalicious/hyper-mac-pro",
+  "xo": {
+    "esnext": true,
+    "space": 4,
+    "semicolon": false,
+    "globals": [
+      "document",
+      "window",
+      "screen"
+    ]
+  },
+  "keywords": [
+    "hyper",
+    "hyperterm",
+    "theme",
+    "ui",
+    "native",
+    "mac",
+    "dark",
+    "pro"
+  ],
+  "devDependencies": {
+    "husky": "^0.13.1",
+    "xo": "^0.17.1",
+    "stylelint": "^7.10.1"
+  }
+}
