@@ -1,5 +1,7 @@
 # hyper-mac-pro
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kremalicious/hyper-mac-pro.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/kremalicious/hyper-mac-pro.svg?branch=master)](https://travis-ci.org/kremalicious/hyper-mac-pro)
 
 > Cause you deserve native & pro. Tab style for [Hyper](https://hyper.is/) inspired by Apple's pro apps on macOS.
