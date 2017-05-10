@@ -1,14 +1,24 @@
 # hyper-mac-pro
 
+[![Build Status](https://travis-ci.org/kremalicious/hyper-mac-pro.svg?branch=master)](https://travis-ci.org/kremalicious/hyper-mac-pro)
+
 > Cause you deserve native & pro. Tab style for [Hyper](https://hyper.is/) inspired by Apple's pro apps on macOS.
 
 ![Screenshot](hyper-mac-pro.png)
 
 This has only been tested on macOS and is not guaranteed to work on other operating systems.
 
-## Usage
+## Installation
 
-Install by adding `hyper-mac-pro` to the `plugins` property in your `~/.hyper.js`. If you're using [hpm](https://github.com/zeit/hpm):
+Install by adding `hyper-mac-pro` to the `plugins` property in your `~/.hyper.js`:
+
+```js
+plugins: [
+  'hyper-mac-pro'
+]
+```
+
+If you're using [hpm](https://github.com/zeit/hpm), from the command line:
 
 ```bash
 hpm install hyper-mac-pro
