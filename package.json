@@ -36,7 +36,7 @@
   ],
   "devDependencies": {
     "husky": "^0.13.1",
-    "xo": "^0.17.1",
+    "xo": "^0.18.2",
     "stylelint": "^7.10.1"
   }
 }
