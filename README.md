@@ -2,10 +2,19 @@
 
 [![Build Status](https://travis-ci.org/kremalicious/hyper-mac-pro.svg?branch=master)](https://travis-ci.org/kremalicious/hyper-mac-pro)
 [![Greenkeeper badge](https://badges.greenkeeper.io/kremalicious/hyper-mac-pro.svg)](https://greenkeeper.io/)
+[![npm version](https://img.shields.io/npm/v/hyper-mac-pro.svg)](https://www.npmjs.com/package/hyper-mac-pro)
 
-> Cause you deserve native & pro. Tab style for [Hyper](https://hyper.is/) inspired by Apple's pro apps on macOS.
+Tab style for [Hyper](https://hyper.is/) inspired by Apple's pro apps on macOS.
 
 ![Screenshot](hyper-mac-pro.png)
+
+> Cause you deserve native & pro.
+
+*Tim Cook*
+
+> Extraordinarily dark aluminum.
+
+*Jony Ive*
 
 This has only been tested on macOS and is not guaranteed to work on other operating systems.
 

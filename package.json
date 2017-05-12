@@ -7,7 +7,8 @@
   "main": "index.js",
   "scripts": {
     "test": "xo && stylelint *.css",
-    "precommit": "npm run test"
+    "precommit": "npm run test",
+    "release": "./node_modules/release-it/bin/release.js --src.tagName='v%s' --github.release --npm.publish"
   },
   "files": [
     "index.js",
@@ -36,7 +37,8 @@
   ],
   "devDependencies": {
     "husky": "^0.13.1",
-    "xo": "^0.18.2",
-    "stylelint": "^7.10.1"
+    "release-it": "^2.7.3",
+    "stylelint": "^7.10.1",
+    "xo": "^0.17.1"
   }
 }
