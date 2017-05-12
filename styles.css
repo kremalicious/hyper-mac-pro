@@ -103,6 +103,7 @@
     display: none;
 }
 
+/* The close icon */
 .tabs_nav .tabs_list .tab_icon {
     z-index: 2;
     right: auto;
@@ -110,19 +111,29 @@
     top: 11px;
     color: var(--tab-text-color);
     border-radius: 3px;
+    padding: 4px;
+    background-color: transparent;
     filter: drop-shadow(0 1px 0 rgba(255, 255, 255, .15));
 }
 
 .tabs_nav .tabs_list .tab_icon:hover {
     color: var(--tab-text-color);
-    padding: 4px;
-    background-color: #676767;
+    background-color: rgba(0, 0, 0, .12);
     filter: none;
 }
 
+.tabs_nav .tabs_list .tab_active .tab_icon:hover {
+    background-color: rgba(0, 0, 0, .15);
+}
+
 .tabs_nav .tabs_list .tab_icon:active {
+    filter: none;
     transition: none;
-    background-color: #5e5e5e;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.tabs_nav .tabs_list .tab_active .tab_icon:active {
+    background-color: rgba(0, 0, 0, .22);
 }
 
 .terms_terms {
