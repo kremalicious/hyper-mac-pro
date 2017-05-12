@@ -14,7 +14,19 @@
     top: 0;
     left: 0;
     right: 0;
-    border-top: 1px solid #cfcfcf;
+}
+
+/* Create a half pixel top border */
+.header_header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    z-index: 2;
+    background: #cfcfcf;
+    transform: scaleY(.5);
 }
 
 .tabs_nav {
