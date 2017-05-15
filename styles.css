@@ -1,8 +1,10 @@
 :root {
-    --tab-height: 34px;
-    --tab-gradient: linear-gradient(to bottom, #898989 0%, #676767 100%);
-    --tab-gradient-hover: linear-gradient(to bottom, #777 0%, #595959 100%);
-    --tab-gradient-inactive: linear-gradient(to bottom, #7d7d7d 0%, #5e5e5e 100%);
+    --tab-height: 35px;
+    --tab-background: linear-gradient(to bottom, #898989 0%, #676767 100%);
+    --tab-background-hover: linear-gradient(to bottom, #777 0%, #595959 100%);
+    --tab-background-inactive: linear-gradient(to bottom, #7d7d7d 0%, #5e5e5e 100%);
+    --tab-background-blur: linear-gradient(to bottom, #606060 0%, #555 100%);
+    --tab-background-blur-active: linear-gradient(to bottom, #666 0%, #595959 100%);
     --tab-border-color: #5e5e5e;
     --tab-text-color: #030303;
     --tab-text-color-inactive: #363636;
@@ -30,13 +32,18 @@
 }
 
 .tabs_nav {
-    background: var(--tab-gradient-inactive);
+    background: var(--tab-background-inactive);
     height: var(--tab-height);
     line-height: var(--tab-height);
 }
 
 .no-tabs .tabs_nav {
-    background: var(--tab-gradient);
+    background: var(--tab-background);
+}
+
+.blur .tabs_nav,
+.no-tabs.blur .tabs_nav {
+    background: var(--tab-background-blur);
 }
 
 .tabs_list {
@@ -48,14 +55,19 @@
 }
 
 .tabs_nav .tab_tab {
-    background: var(--tab-gradient-inactive);
+    background: var(--tab-background-inactive);
     border-left: 1px solid var(--tab-border-color) !important;
     border-bottom: 0;
     transition: background .25s ease-out;
 }
 
 .no-tabs .tabs_nav .tab_tab {
-    background: var(--tab-gradient);
+    background: var(--tab-background);
+}
+
+.blur .tabs_nav .tab_tab,
+.no-tabs.blur .tabs_nav .tab_tab {
+    background: var(--tab-background-blur);
 }
 
 .tabs_nav .tab_text,
@@ -76,6 +88,12 @@
     color: var(--tab-text-color);
 }
 
+.blur .tabs_nav .tabs_title,
+.blur .tabs_nav .tabs_list .tab_active .tab_text {
+    transition: none;
+    color: var(--tab-text-color-inactive);
+}
+
 .tabs_nav .tab_tab.tab_first:not(.tab_active) {
     border-left: 0 !important;
 }
@@ -85,11 +103,15 @@
 }
 
 .tabs_nav .tab_tab:not(.tab_active):hover {
-    background: var(--tab-gradient-hover);
+    background: var(--tab-background-hover);
 }
 
 .tabs_nav .tabs_list .tab_active {
-    background: var(--tab-gradient);
+    background: var(--tab-background);
+}
+
+.blur .tabs_nav .tabs_list .tab_active {
+    background: var(--tab-background-blur-active);
 }
 
 .tabs_nav .tabs_list .tab_active .tab_text {

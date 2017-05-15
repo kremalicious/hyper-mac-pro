@@ -33,15 +33,39 @@ exports.getTabsProps = (parentProps, props) => {
     return Object.assign({}, parentProps, props)
 }
 
-// Fullscreen body class
-exports.mapHyperState = (state, map) => {
-    const bodyClasses = document.body.classList
-
-    if (window.innerHeight === screen.height) {
-        bodyClasses.add('fullscreen')
-    } else {
-        bodyClasses.remove('fullscreen')
+// Fullscreen & blur/focus body classes
+module.exports.onWindow = browserWindow => {
+    const enterFullscreen = () => {
+        document.body.classList.add('fullscreen')
     }
 
-    return Object.assign({}, state, map)
+    const leaveFullscreen = () => {
+        document.body.classList.remove('fullscreen')
+    }
+
+    const onBlur = () => {
+        document.body.classList.add('blur')
+    }
+
+    const onFocus = () => {
+        document.body.classList.remove('blur')
+    }
+
+    browserWindow.on('enter-full-screen', () => {
+        browserWindow.webContents.executeJavaScript(`(${enterFullscreen.toString()})();`)
+    })
+
+    browserWindow.on('leave-full-screen', () => {
+        browserWindow.webContents.executeJavaScript(`(${leaveFullscreen.toString()})();`)
+    })
+
+    browserWindow.on('blur', () => {
+        browserWindow.webContents.executeJavaScript(`(${onBlur.toString()})();`)
+    })
+
+    browserWindow.on('focus', () => {
+        browserWindow.webContents.executeJavaScript(`(${onFocus.toString()})();`)
+    })
+
+    return browserWindow
 }
