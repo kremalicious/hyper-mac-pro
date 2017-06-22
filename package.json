@@ -38,7 +38,7 @@
     "pro"
   ],
   "devDependencies": {
-    "husky": "^0.13.1",
+    "husky": "^0.14.0",
     "release-it": "^2.7.3",
     "stylelint": "^7.10.1",
     "stylelint-config-standard": "^16.0.0",
