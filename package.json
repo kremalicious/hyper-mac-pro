@@ -40,7 +40,7 @@
   "devDependencies": {
     "husky": "^0.14.0",
     "release-it": "^2.7.3",
-    "stylelint": "^8.0.0",
+    "stylelint": "^8.1.0",
     "stylelint-config-standard": "^16.0.0",
     "xo": "^0.17.1"
   }
