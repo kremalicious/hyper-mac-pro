@@ -1,6 +1,6 @@
 {
   "name": "hyper-mac-pro",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Tab style for Hyper inspired by Apple's pro apps on macOS",
   "license": "MIT",
   "author": "Matthias Kretschmann <m@kretschmann.io>",
@@ -21,7 +21,9 @@
     "esnext": true,
     "space": 4,
     "semicolon": false,
-    "globals": ["document"]
+    "globals": [
+      "document"
+    ]
   },
   "keywords": [
     "hyper",
