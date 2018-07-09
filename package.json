@@ -6,24 +6,20 @@
   "author": "Matthias Kretschmann <m@kretschmann.io>",
   "main": "index.js",
   "scripts": {
-    "test": "xo && stylelint *.css",
+    "test": "xo",
     "precommit": "npm run test",
     "release": "./node_modules/release-it/bin/release-it.js --src.tagName='v%s' --github.release --npm.publish"
   },
   "files": [
     "index.js",
-    "styles.css"
+    "styles.js"
   ],
   "repository": "kremalicious/hyper-mac-pro",
   "xo": {
     "esnext": true,
     "space": 4,
     "semicolon": false,
-    "globals": [
-      "document",
-      "window",
-      "screen"
-    ]
+    "globals": ["document"]
   },
   "keywords": [
     "hyper",
@@ -40,8 +36,6 @@
   "devDependencies": {
     "husky": "^0.14.0",
     "release-it": "^7.0.2",
-    "stylelint": "^9.0.0",
-    "stylelint-config-standard": "^18.0.0",
     "xo": "^0.21.0"
   }
 }
