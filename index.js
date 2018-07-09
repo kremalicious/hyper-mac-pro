@@ -1,15 +1,4 @@
-'use strict'
-
-const fs = require('fs')
-const path = require('path')
-
-let styles = ''
-
-try {
-    styles = fs.readFileSync(path.join(__dirname, 'styles.css'), 'utf8')
-} catch (err) {
-    throw err
-}
+const styles = require('./styles')
 
 exports.decorateConfig = config => Object.assign({}, config, {
     css: (config.css || '') + styles

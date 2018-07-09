@@ -44,4 +44,4 @@ Install dependencies with `npm install` and hack away. Run the tests using `npm 
 
 ## Author
 
-- [Matthias Kretschmann](https://matthiaskretschmann.com) ([@kremalicious](https://twitter.com/kremalicious))
+- [Matthias Kretschmann](https://matthiaskretschmann.com) ([@kremalicious](https://github.com/kremalicious))
