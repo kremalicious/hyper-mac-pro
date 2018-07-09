@@ -1,6 +1,6 @@
 # hyper-mac-pro
 
-[![Build Status](https://travis-ci.org/kremalicious/hyper-mac-pro.svg?branch=master)](https://travis-ci.org/kremalicious/hyper-mac-pro)
+[![Build Status](https://travis-ci.com/kremalicious/hyper-mac-pro.svg?branch=master)](https://travis-ci.com/kremalicious/hyper-mac-pro)
 [![Greenkeeper badge](https://badges.greenkeeper.io/kremalicious/hyper-mac-pro.svg)](https://greenkeeper.io/)
 [![npm version](https://img.shields.io/npm/v/hyper-mac-pro.svg)](https://www.npmjs.com/package/hyper-mac-pro)
 
