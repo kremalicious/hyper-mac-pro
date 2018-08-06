@@ -40,6 +40,6 @@
   "devDependencies": {
     "husky": "^0.14.0",
     "release-it": "^7.0.2",
-    "xo": "^0.21.0"
+    "xo": "^0.22.0"
   }
 }
