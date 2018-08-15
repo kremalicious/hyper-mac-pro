@@ -6,7 +6,7 @@
   "author": "Matthias Kretschmann <m@kretschmann.io>",
   "main": "index.js",
   "scripts": {
-    "test": "xo",
+    "test": "eslint .",
     "precommit": "npm run test",
     "release": "./node_modules/release-it/bin/release-it.js --src.tagName='v%s' --github.release --npm.publish --non-interactive",
     "release-minor": "./node_modules/release-it/bin/release-it.js minor --src.tagName='v%s' --github.release --npm.publish --non-interactive",
@@ -17,14 +17,6 @@
     "styles.js"
   ],
   "repository": "kremalicious/hyper-mac-pro",
-  "xo": {
-    "esnext": true,
-    "space": 4,
-    "semicolon": false,
-    "globals": [
-      "document"
-    ]
-  },
   "keywords": [
     "hyper",
     "hyperterm",
@@ -38,8 +30,8 @@
     "pro"
   ],
   "devDependencies": {
+    "eslint": "^5.3.0",
     "husky": "^0.14.0",
-    "release-it": "^7.0.2",
-    "xo": "^0.22.0"
+    "release-it": "^7.0.2"
   }
 }
