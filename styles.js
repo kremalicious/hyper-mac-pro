@@ -5,7 +5,7 @@ const config = {
     tabBackgroundInactive: 'linear-gradient(to bottom, #7d7d7d 0%, #5e5e5e 100%)',
     tabBackgroundBlur: 'linear-gradient(to bottom, #606060 0%, #555 100%)',
     tabBackgroundBlurActive: 'linear-gradient(to bottom, #666 0%, #595959 100%)',
-    'tabBorder-color': '#5e5e5e',
+    tabBorderColor: '#5e5e5e',
     tabTextColor: '#030303',
     tabTextColorInactive: '#363636'
 }
