@@ -30,7 +30,7 @@
     "pro"
   ],
   "devDependencies": {
-    "eslint": "^5.3.0",
+    "eslint": "^6.0.0",
     "husky": "^2.0.0",
     "release-it": "^12.0.0"
   }
