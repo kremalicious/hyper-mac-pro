@@ -1,7 +1,7 @@
 # hyper-mac-pro
 
 [![Build Status](https://travis-ci.com/kremalicious/hyper-mac-pro.svg?branch=master)](https://travis-ci.com/kremalicious/hyper-mac-pro)
-[![Greenkeeper badge](https://badges.greenkeeper.io/kremalicious/hyper-mac-pro.svg)](https://greenkeeper.io/)
+[![Dependabot enabled](https://badgen.net/dependabot/thepracticaldev/dev.to?icon=dependabot)](https://dependabot.com/)
 [![npm version](https://img.shields.io/npm/v/hyper-mac-pro.svg)](https://www.npmjs.com/package/hyper-mac-pro)
 
 Tab style for [Hyper](https://hyper.is/) inspired by Apple's pro apps on macOS.
