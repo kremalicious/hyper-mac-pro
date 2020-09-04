@@ -30,6 +30,6 @@
   ],
   "devDependencies": {
     "eslint": "^7.0.0",
-    "release-it": "^13.0.0"
+    "release-it": "^14.0.1"
   }
 }
