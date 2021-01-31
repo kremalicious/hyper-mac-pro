@@ -1,6 +1,6 @@
 # hyper-mac-pro
 
-[![Build Status](https://github.com/kremalicious/portfolio/workflows/CI/badge.svg)](https://github.com/kremalicious/hyper-mac-pro/actions)
+[![Build Status](https://github.com/kremalicious/hyper-mac-pro/workflows/CI/badge.svg)](https://github.com/kremalicious/hyper-mac-pro/actions)
 [![npm version](https://img.shields.io/npm/v/hyper-mac-pro.svg)](https://www.npmjs.com/package/hyper-mac-pro)
 
 Tab style for [Hyper](https://hyper.is/) inspired by Apple's pro apps on macOS.
